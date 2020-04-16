@@ -1,0 +1,19 @@
+body {
+    background-color:  #e6f2ff;
+    text-align: center;
+}
+
+#introduction h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 56px;
+    /* padding-top: 20px; */
+}
+
+#introduction h2 {
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#div {
+    font-weight: 100;
+}
