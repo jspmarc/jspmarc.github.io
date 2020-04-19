@@ -1,19 +1,29 @@
 body {
-    background-color:  #e6f2ff;
-    text-align: center;
+    background-color:  whitesmoke;
 }
 
-#introduction h1{
+#introduction{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 36px;
+    padding-bottom: 180px;
+    line-height: 12px;
+}
+
+#introduction .name {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 56px;
-    /* padding-top: 20px; */
 }
 
-#introduction h2 {
-    font-weight: 100;
+#introduction .intro {
+    color: #000000;
+    font-weight: lighter;
+    font-size: 23px;
     font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
 }
 
-#div {
-    font-weight: 100;
+#footer {
+    position: relative;
+    margin-top: 100px;
 }
