@@ -1,4 +1,19 @@
+/*
+Raleway:
+font-family: 'Source Code Pro', monospace;
+
+Merriweather:
+font-family: 'Merriweather', serif;
+
+Source Code Pro:
+font-family: 'Source Code Pro', monospace;
+
+*/
+
 body {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color:  darkslategray;
 
     font-family: 'Raleway', sans-serif;
@@ -12,49 +27,84 @@ body {
 .link {
     color: white;
     text-decoration-style: dotted;
-}
 
-#introduction{
-    font-size: 36px;
-    
-    line-height: 8px;
-    /* position: relative; */
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: -5px;
-}
-
-#introduction .name {
-    color: whitesmoke;
     font-weight: 400;
+    opacity: 90%;
+}
+
+.content-title {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 72px;
 
     position: relative;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
 }
 
-#introduction .short-bio {
+.short-intro {
     color: #87A890;
     font-size: 18px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
     font-style: normal;
 
-    /* margin-bottom: -1px; */
+    margin-top: 8px;
+}
+
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.img {
+    margin-right: 0px;
+    width: 200px;
+    height: 200px;
+    height: auto;
+    border-radius: 90%;
+}
+
+#introduction li {
+    list-style: square;
+}
+
+#title{ 
+    margin-top: 10%;
 }
 
 #navbar {
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    font-weight: 20;
-    font-size: 18px;
-    opacity: 90%;
-
     position: relative;
-    margin-left: 10%;
-    margin-top: -1%;
+    margin-top: -4%;
+    margin-bottom: 0%;
+
+    font-size: 18px;
 }
 
-#footer {
+#introduction {
+    margin-top: 4%;
+}
+
+.footer {
     position: relative;
-    margin-top: 100px;
+    margin-top: 26%;
+    /* margin-top: 100px; */
+
+    color: white;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media screen and (max-width:360px) {
+    #title{
+        font-size: 26px;
+        
+        line-height: 8px;
+        margin-top: 10%;
+        margin-bottom: -10px;
+    }
 }
