@@ -43,12 +43,12 @@ body {
 
 .short-intro {
     color: #87A890;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
     font-style: normal;
 
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .content {
@@ -61,12 +61,14 @@ body {
     text-align: left;
 }
 
-.img {
-    margin-right: 0px;
-    width: 200px;
-    height: 200px;
+.float_right {
+    float: right;
+}
+
+.circle_image {
+    border-radius: 100%;
+    width: 30%;
     height: auto;
-    border-radius: 90%;
 }
 
 #introduction li {
@@ -74,15 +76,17 @@ body {
 }
 
 #title{ 
-    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #navbar {
     position: relative;
-    margin-top: -4%;
+    margin-top: 0px;
     margin-bottom: 0%;
 
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #introduction {
