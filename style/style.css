@@ -1,26 +1,57 @@
 body {
-    background-color:  whitesmoke;
+    background-color:  darkslategray;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.hover-underline:hover {
+    color: #A89797;
+    text-decoration: underline;
+}
+
+.link {
+    color: white;
+    text-decoration-style: dotted;
 }
 
 #introduction{
-    position: relative;
+    font-size: 36px;
+    
+    line-height: 8px;
+    /* position: relative; */
     margin-top: 10%;
     margin-left: 10%;
-    font-size: 36px;
-    padding-bottom: 180px;
-    line-height: 12px;
+    margin-bottom: -5px;
 }
 
 #introduction .name {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+
+    position: relative;
+    margin-bottom: -1%;
 }
 
-#introduction .intro {
-    color: #000000;
-    font-weight: lighter;
-    font-size: 23px;
-    font-family: 'Courier New', Courier, monospace;
+#introduction .short-bio {
+    color: #87A890;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
     font-style: normal;
+
+    /* margin-bottom: -1px; */
+}
+
+#navbar {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-weight: 20;
+    font-size: 18px;
+    opacity: 90%;
+
+    position: relative;
+    margin-left: 10%;
+    margin-top: -1%;
 }
 
 #footer {
