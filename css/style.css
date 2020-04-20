@@ -279,33 +279,6 @@ body {
         margin: 0px;
         font-family: 'Source Code Pro', monospace;
     }
-    
-    .box:nth-child(even) {
-        background-color: #277AF5;
-    }
-    
-    .box:nth-child(even):hover {
-        background-color: white;
-        color: #277AF5;
-    }
-    
-    .box:nth-child(odd) {
-        /* default */
-        background-color: #FF2BB6;
-    
-        /* option-1 */
-        /* background-color: darkkhaki; */
-    }
-    
-    .box:nth-child(odd):hover {
-        background-color: white;
-    
-        /* default */
-        color: #FF2BB6;
-    
-        /* option-2 */
-        /* color: darkkhaki; */
-    }
 
     .media-link {
         padding: 7px;
@@ -315,78 +288,6 @@ body {
     
         font-family: 'Raleway', sans-serif;;
         font-weight: 600;
-    }
-    
-    .twitter-color {
-        background-color: #1da1f2;
-    
-        color: white;
-    }
-    
-    .twitter-color:hover {
-        background-color: white;
-    
-        color: #1da1f2;
-    }
-    
-    .ig-color {
-        /* background-image: linear-gradient(-135deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#f56040,#f77737,#fcaf45,#ffdc80); */
-        background-color: deeppink;
-    
-        color: white;
-    }
-    
-    .ig-color:hover {
-        /* filter: brightness(90%); */
-        background-color: white;
-    
-        color: deeppink;
-    }
-    
-    .in-color {
-        background-color:#2867b2;
-    
-        color:white;
-    }
-    
-    .in-color:hover {
-        background-color: white;
-    
-        color: #2867b2;
-    }
-    
-    .gh-color {
-        background-color: black;
-    
-        color: white;
-    }
-    
-    .gh-color:hover {
-        background-color: white;
-    
-        color: black;
-    }
-    
-    .cf-color {
-        /* default */
-        background-color: red;
-        color: white;
-        /* color: #EDF5E9; */
-    
-        /* option-2 */
-        /* background-color: #648db1; */
-        /* color: white; */
-    }
-    
-    .cf-color:hover {
-        /* opacity: 100%; */
-        /* default */
-        background-color: white;
-        color: red;
-    
-        /* option-2 */
-        /* background-color: white; */
-        /* color: #648db1; */
     }
     
     #title {
