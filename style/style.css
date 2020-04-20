@@ -1,6 +1,6 @@
 /*
 Raleway:
-font-family: 'Source Code Pro', monospace;
+font-family: 'Raleway', sans-serif;
 
 Merriweather:
 font-family: 'Merriweather', serif;
@@ -20,8 +20,11 @@ body {
 }
 
 .hover-underline:hover {
-    color: #A89797;
     text-decoration: underline;
+}
+
+.hover-changecolor:hover {
+    color: #A89797;
 }
 
 .italic {
@@ -29,7 +32,8 @@ body {
 }
 
 .link {
-    color: white;
+    /* color: white; */
+    color: #EDF5E9;
     text-decoration: none;
 
     font-weight: 400;
@@ -52,7 +56,7 @@ body {
     font-weight: 400;
     font-style: normal;
 
-    margin-top: 0px;
+    margin-top: 1%;
 }
 
 .content-title {
@@ -68,7 +72,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 
-    color: whitesmoke;
+    color: #DCF5F1;
     font-family: 'Merriweather', serif;
     font-size: 16px;
     text-align: left;
@@ -103,6 +107,37 @@ body {
     margin-bottom: -2%;
 }
 
+.block {
+    padding: 4px 4px 4px 4px;
+    background-color: #9DA897;
+    border-radius: 7%;
+    /* opacity: 70%; */
+}
+
+.block:hover {
+    /* opacity: 100%; */
+    background-color: #DCF5F1;
+    color: #9DA897;
+}
+
+.media-link {
+    padding: 7px 7px 7px 7px;
+    border-radius: 7%;
+}
+
+.twitter-color {
+    background-color: #1da1f2;
+
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 600;
+}
+
+.twitter-color:hover {
+    background-color: white;
+
+    color: #1da1f2;
+}
+
 .footer {
     position: relative;
     margin-top: 26%;
@@ -122,11 +157,11 @@ body {
     list-style: square;
 }
 
-#name-intro{ 
+/* #name-intro{ 
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
+} */
 
 #navbar {
     position: relative;
