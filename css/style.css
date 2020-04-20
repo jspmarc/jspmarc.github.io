@@ -43,7 +43,7 @@ body {
 
     /* option-2 */
     /* color: #0f8a97; */
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     font-style: normal;
@@ -86,33 +86,44 @@ body {
 }
 
 .box:nth-child(even) {
-    background-color: #277AF5;
+    /* default */
+    /* background-color: #277AF5; */
+
+    /* option-2 */
+    background-color: teal;
 }
 
 .box:nth-child(even):hover {
     background-color: white;
+
+    /* default */
     color: #277AF5;
+
+    /* option-2 */
+    color: teal;
 }
 
 .box:nth-child(odd) {
     /* default */
-    background-color: #FF2BB6;
+    /* background-color: #FF2BB6; */
 
-    /* option-1 */
-    /* background-color: darkkhaki; */
+    /* option-2 */
+    background-color: forestgreen;
 }
 
 .box:nth-child(odd):hover {
     background-color: white;
 
     /* default */
-    color: #FF2BB6;
+    /* color: #FF2BB6; */
 
     /* option-2 */
-    /* color: darkkhaki; */
+    color: forestgreen;
 }
 
 .media-link {
+    /* opacity: 75%; */
+    filter: grayscale(40%);
     padding: 7px;
     border-radius: 4px;
 
@@ -120,6 +131,10 @@ body {
 
     font-family: 'Raleway', sans-serif;;
     font-weight: 600;
+}
+
+.media-link:hover {
+    filter: grayscale(0%);
 }
 
 .twitter-color {
@@ -208,22 +223,9 @@ body {
         position: relative;
         margin-left: 10%;
         margin-right: 10%;
-        /* default */
-        background-color: #01141b;
-        /* background-image: radial-gradient(circle, #1e5157 1%, #01141b 99%); */
-    
-        /* option-2 */
-        /* background-color:#1e5157; */
-    
-        font-family: 'Raleway', sans-serif;
     }
     
     .name {
-        /* default */
-        /* color: whitesmoke; */
-    
-        /* option-2 */
-        color: #E7FFF6;
         font-weight: 600;
         font-size: 64px;
     
@@ -232,13 +234,7 @@ body {
     }
     
     .short-intro {
-        /* default */
-        color: #87A890;
-    
-        /* option-2 */
-        /* color: #0f8a97; */
         font-size: 12px;
-        font-family: 'Source Code Pro', monospace;
         font-weight: 400;
         font-style: normal;
     
@@ -248,13 +244,7 @@ body {
     .content {
         margin-top: 0px;
         margin-bottom: 1%;
-    
-        /* default */
-        /* color: #AAF0D2; */
-    
-        /* option-2 */
-        color: #CDF6E8;
-        font-family: 'Merriweather', serif;
+
         font-size: 16px;
         text-align: left;
     }
@@ -277,7 +267,6 @@ body {
 
     .box-content {
         margin: 0px;
-        font-family: 'Source Code Pro', monospace;
     }
 
     .media-link {
@@ -286,7 +275,6 @@ body {
         margin-bottom: 7px;
         border-radius: 4px;
     
-        font-family: 'Raleway', sans-serif;;
         font-weight: 600;
     }
     
