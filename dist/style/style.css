@@ -142,20 +142,20 @@ body {
 
 .box:nth-child(odd) {
     /* default */
-    /* background-color: #FF2BB6; */
+    background-color: #FF2BB6;
 
     /* option-1 */
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
 }
 
 .box:nth-child(odd):hover {
     background-color: white;
 
     /* default */
-    /* color: #FF2BB6; */
+    color: #FF2BB6;
 
     /* option-2 */
-    color: darkkhaki;
+    /* color: darkkhaki; */
 }
 
 .box:hover {
