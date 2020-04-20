@@ -18,7 +18,7 @@ body {
     /* background-color:  darkslategray; */
 
     /* option-2 */
-    background-color:#025a64;
+    background-color:#1e5157;
 
     font-family: 'Raleway', sans-serif;
 }
@@ -101,7 +101,7 @@ body {
 
 .content {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 1%;
 
     /* default */
     /* color: #AAF0D2; */
@@ -109,54 +109,46 @@ body {
     /* option-2 */
     color: #CDF6E8;
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
 }
 
-.small-margins-top {
-    margin-top: 1px;
-}
-
-.small-margins-top {
-    margin-bottom: 1px;
-}
-
-.float_right {
+.float-right {
     float: right;
 }
 
-.float_left {
+.float-left {
     float: left;
 }
 
-.circle_image {
+.circle-image {
     border-radius: 100%;
     width: 300px;
     height: auto;
 }
 
-.block {
+.box {
     padding: 4px 4px 4px 4px;
     /* default */
-    /* background-color: #9DA897; */
+    background-color: dimgray;
 
     /* option-2 */
-    background-color: #648db1;
+    /* background-color: #648db1; */
     border-radius: 7%;
 
     cursor: default;
     /* opacity: 70%; */
 }
 
-.block:hover {
+.box:hover {
     /* opacity: 100%; */
     /* default */
     /* background-color: #DCF5F1; */
-    /* color: #9DA897; */
+    color: dimgray;
 
     /* option-2 */
     background-color: #CDF6E8;
-    color: #648db1;
+    /* color: #648db1; */
 }
 
 .media-link {
@@ -169,6 +161,8 @@ body {
 
 .twitter-color {
     background-color: #1da1f2;
+
+    color: white;
 }
 
 .twitter-color:hover {
@@ -178,11 +172,17 @@ body {
 }
 
 .ig-color {
-    background-image: linear-gradient(-135deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#f56040,#f77737,#fcaf45,#ffdc80);
+    /* background-image: linear-gradient(-135deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#f56040,#f77737,#fcaf45,#ffdc80); */
+    background-color: deeppink;
+
+    color: white;
 }
 
 .ig-color:hover {
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
+    background-color: white;
+
+    color: deeppink;
 }
 
 .in-color {
@@ -211,33 +211,24 @@ body {
 
 .cf-color {
     /* default */
-    /* background-color: #97A8A6; */
+    background-color: red;
+    color: white;
     /* color: #EDF5E9; */
 
     /* option-2 */
-    background-color: #648db1;
-    color: white;
+    /* background-color: #648db1; */
+    /* color: white; */
 }
 
 .cf-color:hover {
     /* opacity: 100%; */
     /* default */
-    /* background-color: #EDF5E9; */
-    /* color: #97A8A6; */
+    background-color: white;
+    color: red;
 
     /* option-2 */
-    background-color: white;
-    color: #648db1;
-}
-
-.footer {
-    position: relative;
-    margin-top: 26%;
-    /* margin-top: 100px; */
-
-    color: white;
-    font-size: 16px;
-    font-family: 'Source Code Pro', monospace;
+    /* background-color: white; */
+    /* color: #648db1; */
 }
 
 #title {
