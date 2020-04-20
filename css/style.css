@@ -65,19 +65,24 @@ body {
     text-align: left;
 }
 
-.box {
-    padding: 4px 4px 4px 4px;
-    /* default */
-    /* background-color: dimgray; */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-    /* option-2 */
-    /* background-color: #648db1; */
-    /* color: #CDF6E8; */
-    /* color: white; */
-    font-family: 'Source Code Pro', monospace;
-    border-radius: 7%;
+.box {
+    padding: 4px;
+    margin-right: 10px;
+    
+    border-radius: 4px;
 
     cursor: default;
+}
+
+.box-content {
+    margin: 0px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .box:nth-child(even) {
@@ -107,13 +112,11 @@ body {
     /* color: darkkhaki; */
 }
 
-.box-content {
-    margin: 0px;
-}
-
 .media-link {
-    padding: 7px 7px 7px 7px;
-    border-radius: 7%;
+    padding: 7px;
+    border-radius: 4px;
+
+    margin-right: 10px;
 
     font-family: 'Raleway', sans-serif;;
     font-weight: 600;
@@ -255,20 +258,26 @@ body {
         font-size: 16px;
         text-align: left;
     }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     
     .box {
-        padding: 4px 4px 4px 4px;
-        /* default */
-        /* background-color: dimgray; */
-    
-        /* option-2 */
-        /* background-color: #648db1; */
-        /* color: #CDF6E8; */
-        /* color: white; */
-        font-family: 'Source Code Pro', monospace;
-        border-radius: 7%;
+        padding: 4px;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        
+        border-radius: 7px;
     
         cursor: default;
+    }
+
+    .box-content {
+        margin: 0px;
+        font-family: 'Source Code Pro', monospace;
     }
     
     .box:nth-child(even) {
@@ -297,14 +306,12 @@ body {
         /* option-2 */
         /* color: darkkhaki; */
     }
-    
-    .box-content {
-        margin-top: 10%;
-    }
 
     .media-link {
-        padding: 7px 7px 7px 7px;
-        border-radius: 7%;
+        padding: 7px;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        border-radius: 4px;
     
         font-family: 'Raleway', sans-serif;;
         font-weight: 600;
