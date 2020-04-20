@@ -203,7 +203,7 @@ body {
     margin-top: 4%;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:720px) {
     body {
         position: relative;
         margin-left: 10%;
