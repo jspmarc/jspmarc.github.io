@@ -145,12 +145,15 @@ body {
 }
 
 .ig-color:hover {
-    filter: brightness(90%);
+    color: linear-gradient(-135deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#f56040,#f77737,#fcaf45,#ffdc80);;
+    text-decoration: none;
+
+    background-color: #833ab4;
 }
 
 .in-color {
-    background-color:#2867b2;
-
+    background-color: #2867b2;
+    
     color:white;
 }
 
@@ -158,30 +161,6 @@ body {
     background-color: white;
 
     color: #2867b2;
-}
-
-.gh-color {
-    background-color: black;
-
-    color: white;
-}
-
-.gh-color:hover {
-    background-color: white;
-
-    color: black;
-}
-
-.cf-color {
-    background-color: #97A8A6;
-
-    color: #DCF5F1;
-}
-
-.cf-color:hover {
-    color: #97A8A6;
-
-    background-color: #DCF5F1;
 }
 
 .footer {
