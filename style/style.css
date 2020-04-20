@@ -15,10 +15,11 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     /* default */
-    /* background-color:  darkslategray; */
+    background-color: #01141b;
+    /* background-image: radial-gradient(circle, #1e5157 1%, #01141b 99%); */
 
     /* option-2 */
-    background-color:#1e5157;
+    /* background-color:#1e5157; */
 
     font-family: 'Raleway', sans-serif;
 }
@@ -33,18 +34,6 @@ body {
 
 .italic {
     font-style: italic;
-}
-
-.link {
-    /* default */
-    /* color: #EDF5E9; */
-
-    /* option-2 */
-    color: #AAF0D2;
-    text-decoration: none;
-
-    font-weight: 400;
-    opacity: 90%;
 }
 
 .name {
@@ -73,10 +62,10 @@ body {
 
 .short-intro {
     /* default */
-    /* color: #87A890; */
+    color: #87A890;
 
     /* option-2 */
-    color: #0f8a97;
+    /* color: #0f8a97; */
     font-size: 16px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
@@ -130,14 +119,43 @@ body {
 .box {
     padding: 4px 4px 4px 4px;
     /* default */
-    background-color: dimgray;
+    /* background-color: dimgray; */
 
     /* option-2 */
     /* background-color: #648db1; */
+    /* color: #CDF6E8; */
+    /* color: white; */
+    font-family: 'Source Code Pro', monospace;
     border-radius: 7%;
 
     cursor: default;
-    /* opacity: 70%; */
+}
+
+.box:nth-child(even) {
+    background-color: #277AF5;
+}
+
+.box:nth-child(even):hover {
+    background-color: white;
+    color: #277AF5;
+}
+
+.box:nth-child(odd) {
+    /* default */
+    /* background-color: #FF2BB6; */
+
+    /* option-1 */
+    background-color: darkkhaki;
+}
+
+.box:nth-child(odd):hover {
+    background-color: white;
+
+    /* default */
+    /* color: #FF2BB6; */
+
+    /* option-2 */
+    color: darkkhaki;
 }
 
 .box:hover {
@@ -148,7 +166,7 @@ body {
 
     /* option-2 */
     background-color: #CDF6E8;
-    /* color: #648db1; */
+    color: #648db1;
 }
 
 .media-link {
