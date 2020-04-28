@@ -71,11 +71,17 @@ body {
     flex-wrap: wrap;
 }
 
+.box-transition {
+    transition: .2s ease-in-out;
+}
+
+.round-box {
+    border-radius: 4px;
+}
+
 .box {
     padding: 4px;
     margin-right: 10px;
-    
-    border-radius: 4px;
 
     cursor: default;
 }
@@ -249,10 +255,18 @@ body {
         text-align: left;
     }
 
+    .center-content-mobile {
+        text-align: center;
+    }
+
     .flex-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .box {
