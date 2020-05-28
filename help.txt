@@ -1,11 +1,11 @@
 # Josep Marcello's Personal Web
 
 Cheat sheet:
-  color wheel/picker: 
+  color wheel/picker:
     https://color.adobe.com/create/color-wheel
     http://www.colors.commutercreative.com/grid/
     https://www.schemecolor.com/color/pastel
-  
+
   choosing a font?
     https://fonts.google.com
     https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/
